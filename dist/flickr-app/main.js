@@ -219,12 +219,9 @@ var ApiService = /** @class */ (function () {
     function ApiService(httpClient) {
         this.httpClient = httpClient;
     }
-    //for login
-    ApiService.prototype.login = function (model) {
-        return this.httpClient.post('127.0.0.1:3001/user/login', model);
-    };
+    //for getting images from flickr feeds
     ApiService.prototype.getFeeds = function (tags) {
-        return this.httpClient.get('http://127.0.0.1:5000/api/feeds?tags=' + tags);
+        return this.httpClient.get('/api/feeds?tags=' + tags);
     };
     ApiService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
