@@ -1,0 +1,9 @@
+.fa {
+    color: hotpink;
+  }
+
+  @media screen and (max-width: 800px) {
+    nav {
+        font-size: 12px;
+    }
+}
