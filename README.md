@@ -4,7 +4,7 @@ Test Application for Isentia
 > This application reads the public feeds on Flickr using this link http://www.flickr.com/services/feeds/photos_public.gne?format=rss_200 and displays them on a web page.
 > User can also add any number of tags in the search box and search for their preferred images.
 
-### Technology:
+### Technology
   #### Backend
   1. NodeJS(v10.15.3)
   2. Express(4.17.0)
